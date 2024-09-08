@@ -1,0 +1,19 @@
+/* NotRobotPage.css */
+.not-robot-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .captcha-container {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .captcha-container input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  

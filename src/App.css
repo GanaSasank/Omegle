@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  display: flex;
+  flex: 1; /* Make the content take the full remaining height */
+  height: calc(100vh - 60px); /* Adjust the height to leave space for the navbar */
+}
+
+.left-half {
+  flex: 1;
+  background-color: #f0f0f0; /* You can change the background color or leave it blank */
+}
+
+.right-half {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-left: 2px solid #ccc;
+  padding: 10px;
+}
